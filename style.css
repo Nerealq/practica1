@@ -1,0 +1,246 @@
+*{
+		margin: 0;
+		padding: 0;
+		box-sizing:border-box; 
+	}
+
+	
+	body{
+		font-family:"Rockwell", monospace;
+		background: #ffe4e1;
+	}
+
+	header, nav, aside, #titulo1, section, article, footer {
+		display: block;
+		text-align: center;
+	}
+
+	div{
+		width: auto;
+		background: #ffe4e1;
+		margin: auto ;
+	}
+
+
+	header, .logo {
+		display: block;
+	}
+
+	header {
+		background: #fff;
+		text-align: center;
+	}
+
+	.banner{
+		height: 400px;
+		background: #fff;
+	}
+
+	#banner{
+		background: #fff;
+	}
+
+	#barra{
+		background:#ffb6ae ;
+		position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+	}
+
+	#barra li{
+		background: #ffb6ae;
+		list-style: none;
+		margin: 10px;
+		padding: 5px;
+		font-weight: lighter;
+		font-size: 20px;
+		display: inline-block;
+		position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+	}
+
+	.column1 {
+        float: left;
+        width: 60%;
+        padding-top: 10px
+        margin-left: 10px;
+            }
+
+    .column2 {
+        float: right;
+        width: 35%;
+        text-align: justify;
+        padding-top: 10px;
+        padding-right: 20px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 10px;
+    }
+
+    .column3 {
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        width: 60%;
+        float: left;
+    } 
+
+    .column4 {
+    	padding-top: 10px;
+        padding-left: 20px;
+        width: 48%;
+        float: left;
+        background: #ffb6ae;
+    }
+
+    .column5{
+    	padding-top: 10px;
+        padding-right: 20px;
+        width: 48%;
+        float: right;
+        background: #ffb6ae;
+    }
+
+    #mapa {
+    	width: 90%;
+    	height: 90%;
+    }
+
+	section {
+		margin-top: 20px;
+		margin-bottom: 10px;
+		margin-left: 10px;
+		margin-left: 10px;
+	}
+
+	article{
+		background: #ffb6ae;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+
+	input, textarea {
+		width: 100%;
+		margin-bottom: 15px;
+		font-size: 15px;
+	}
+
+	button{
+		font-size: 20px;
+		color:#d4feff;
+	}
+
+	#titulo1{
+		font-size: 30px;
+		color: black;
+	}
+
+	#sub1{
+		font-size: 20px;
+		color: lightgray;
+		font-style: italic;
+		font-weight: lighter;
+		text-align: center;
+	}
+
+	#sub2{
+		font-size: 20px; 
+	}
+
+	#film{
+		font-size: 25px;
+		color: #090909;
+		background: #ffb6ae;
+	}
+
+	h2{
+		font-size: 18px;
+		padding: 2px;
+		text-align: center;
+	}
+
+	p{
+		font-size: 15px;
+		text-align: justify;
+		padding: 10px;
+	}
+
+	#intro{
+		font-size: 20px;
+		text-align: justify;
+		padding: 10px;
+	}
+
+	.foto1{
+		display: block;
+		margin-left: auto;
+  		margin-right: auto;
+		max-width: 70%;
+		max-height: 70%;
+		box-sizing:border-box;
+	}
+
+	.foto2{
+		display: block;
+		margin-left: auto;
+  		margin-right: auto;
+		max-width:100%;
+		max-height:100%;
+		box-sizing:border-box;
+	}
+
+	.xarxa{
+		margin-left: auto;
+  		margin-right: auto;
+  		width: 20px;
+	}
+
+	.social li{
+		list-style: none;
+		max-width:70%;
+		padding: 5px;
+		padding-bottom: 5px;
+		display: inline-block;
+	}
+
+	.twitter{
+		padding-top: 8px;
+	}
+
+	footer {
+		background: #ffb6ae;
+		font-size: 15px;
+		clear: both;
+		position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+	}
+
+	a:link {
+	  color: #2f0364;
+	}
+
+	a:visited {
+	  color: ;
+	}
+
+	a:hover {
+  	  color: #2f0364;
+	}
+
+	a:link {
+  	  text-decoration: none;
+	}
+
+	a:visited {
+      text-decoration: none;
+    }
+    #map {
+          padding:0;
+          margin:0;
+          }
+    html, body, #map {
+          height: 100%;
+          width: 100%;
+          }
